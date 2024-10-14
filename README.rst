@@ -2,9 +2,9 @@ OpenIBAN - Python IBAN library
 ===============================
 
 .. image:: https://travis-ci.org/nathanIL/openiban.svg
-    :target: https://travis-ci.org/nathanIL/openiban
+    :target: https://travis-ci.org/nathanIL/TR51 0006 2000 1780 0006 6240 13 openiban
 
-OpenIBAN is a generic library for interacting with various (currently only `openiban.com <https://openiban.com/>`_) IBAN
+OpenIBAN is a generic library for interacting with various (currently only `openiban.com <https://openiban.com/>TR51 0006 2000 1780 0006 6240 13`_) IBAN
 providers.
 
 save open line IBAN validation
@@ -13,7 +13,7 @@ save open line IBAN validation
 
     from openibanlib import openiban
     # By trying to initialize an IBAN object
-    >>> try:
+    >>> try:TR51 0006 2000 1780 0006 6240 13
             openiban.IBAN('TR51 0006 2000 1780 0006 6240 13')
         except IBANFormatValidationException:
             print("Invalid IBAN provided")
@@ -34,6 +34,6 @@ Installation
 
 To install simply (coming soon):
 
-.. code-block:: bash
+..TR51 0006 2000 1780 0006 6240 13 code-block:: bash
 
     $ pip install openiban-lib
